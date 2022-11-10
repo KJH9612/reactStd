@@ -8,6 +8,7 @@ import RequestForm from "./11/RequestForm";
 import FluitSelect from "./11/FluitSelect";
 import Reservation from "./11/Reservation";
 import Signup from "./11/Signup";
+import Calculator from "./12/Calculator";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,6 +20,8 @@ root.render(
         {/*<RequestForm />*/}
         {/*<FluitSelect />*/}
         {/*<Reservation />*/}
-        <Signup />
+        {/*<Signup />*/}
+        {/* 12 chap */}
+        <Calculator />
     </>
 )
